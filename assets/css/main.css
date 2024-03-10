@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --nav-height: 100px;
+  }
+
   html {
     font-family: 'Urbanist', sans-serif;
     font-optical-sizing: auto;
+  }
+
+  .screen-height {
+    @apply h-[calc(100vh-var(--nav-height))];
   }
 }

@@ -1,9 +1,14 @@
 <template>
-  <div>
+  <UContainer class="relative">
+    <Header />
+    <HomeContentNav />
     <UContainer>
-      <slot />
+      <UContainer class="md:max-w-xl lg:max-w-4xl mr-0 px-0 pb-5">
+        <slot />
+      </UContainer>
     </UContainer>
-  </div>
+    <Footer />
+  </UContainer>
 </template>
 
 <script setup></script>
