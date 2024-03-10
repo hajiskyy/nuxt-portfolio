@@ -2,7 +2,9 @@
   <UContainer
     class="sticky top-0 py-2 flex items-center justify-between backdrop-blur"
   >
-    <span class="text-xl font-extrabold">イブラヒム</span>
+    <NuxtLink to="/" class="text-xl font-extrabold cursor-pointer">
+      イブラヒム
+    </NuxtLink>
 
     <div class="flex item-center gap-1">
       <UButton
