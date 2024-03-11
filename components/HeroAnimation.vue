@@ -27,12 +27,14 @@ const style: ComputedRef<Partial<StyleValue>> = computed(() => ({
   clipPath: `polygon(${points.value.map((p) => `${p.x}% ${p.y}%`).join(',')})`,
 }))
 
-for (let i = 0; i < numPoints; i++) {
-  points.value.push({
-    index: i,
-    x: Math.random() * width,
-    y: Math.random() * height,
-  })
+const generatePoints = () => {
+  for (let i = 0; i < numPoints; i++) {
+    points.value.push({
+      index: i,
+      x: Math.random() * width,
+      y: Math.random() * height,
+    })
+  }
 }
 
 const updatePoints = () => {
@@ -43,6 +45,7 @@ const updatePoints = () => {
 }
 
 onMounted(() => {
+  generatePoints()
   const intervalId = setInterval(updatePoints, 3000) // 3 seconds
 
   onBeforeUnmount(() => {
@@ -53,6 +56,8 @@ onMounted(() => {
 
 <style lang="css" scoped>
 .clip-anim {
+  -webkit-clip-path: circle(25%);
+  clip-path: circle(25%);
   transition: clip-path 3s, -webkit-clip-path 3s;
 }
 </style>

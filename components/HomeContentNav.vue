@@ -3,9 +3,9 @@
     class="hidden md:flex max-w-52 screen-height p-2 fixed top-0 flex-col justify-end"
   >
     <ul class="">
-      <li v-for="p in projects" :key="p.id">
-        <NuxtLink :to="`/#${p.id}`" class="font-medium">
-          {{ p.name }}
+      <li v-for="l in toc.links" :key="l.id">
+        <NuxtLink :to="`/#${l.id}`" class="font-medium">
+          {{ l.text }}
         </NuxtLink>
       </li>
     </ul>
@@ -13,9 +13,7 @@
 </template>
 
 <script setup>
-const { projects, fetchData: fetchProjects } = useProjects()
-
-fetchProjects()
+const { toc } = useContent()
 </script>
 
 <style lang="scss" scoped></style>

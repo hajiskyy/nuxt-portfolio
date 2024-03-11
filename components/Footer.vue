@@ -6,8 +6,20 @@
     >
 
     <div class="flex gap-1 items-center">
-      <UButton icon="i-simple-icons-instagram" color="gray" variant="ghost" />
-      <UButton icon="i-simple-icons-x" color="gray" variant="ghost" />
+      <UButton
+        icon="i-simple-icons-instagram"
+        to="https://www.instagram.com/hajisky/"
+        target="_blank"
+        color="gray"
+        variant="ghost"
+      />
+      <UButton
+        icon="i-simple-icons-x"
+        to="https://twitter.com/hajiskyyy"
+        target="_blank"
+        color="gray"
+        variant="ghost"
+      />
       <UButton
         icon="i-simple-icons-github"
         color="gray"
