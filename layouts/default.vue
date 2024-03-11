@@ -1,5 +1,5 @@
 <template>
-  <UContainer class="relative">
+  <UContainer class="relative overflow-hidden">
     <Header />
     <HomeContentNav />
     <HeroAnimation />

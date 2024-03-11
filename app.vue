@@ -7,7 +7,8 @@
 <script setup>
 useHead({
   bodyAttrs: {
-    class: 'w-full h-full bg-white dark:text-white dark:bg-slate-950',
+    class:
+      'w-full h-full bg-white dark:text-white dark:bg-slate-950 overflow-x-hidden',
   },
 })
 </script>
