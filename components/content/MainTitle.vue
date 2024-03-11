@@ -11,7 +11,12 @@
       <ContentSlot :use="$slots.description" unwrap="p" />
     </p>
 
-    <UButton class="" icon="i-heroicons-document-arrow-down"
+    <UButton
+      class=""
+      icon="i-heroicons-document-arrow-down"
+      to="/CV.pdf"
+      target="_blank"
+      external
       >Download CV</UButton
     >
   </article>
