@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/fonts'],
+  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/fonts', "@nuxthq/studio"],
   debug: false,
   content: {
     documentDriven: true,
