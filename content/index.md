@@ -4,7 +4,7 @@ description: What i'm all about
 ---
 
 ::main-title
-Hi, [I'm Haji]{.text-primary}:br
+Hi, [I'm Haji]{.text-primary}\
 I bring Ideas to life
 
 #description
