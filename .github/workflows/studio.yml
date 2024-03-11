@@ -1,4 +1,3 @@
-
 name: studio-nuxt-build
 run-name: studio nuxt build
 
@@ -17,7 +16,7 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: true
 
 jobs:
@@ -31,7 +30,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [18]
+        node: [20]
 
     steps:
       - name: Checkout
@@ -71,7 +70,6 @@ jobs:
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
           NUXT_PUBLIC_STUDIO_TOKENS: 17be68812245ca835f5e8e01bcaa507143330626e181870dcc411cd2fd43d974
-
 
       # Deployment job
       - name: Deploy 🚀
