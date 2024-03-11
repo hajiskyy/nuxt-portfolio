@@ -1,0 +1,1 @@
+import{m as r,q as l}from"./entry.Cwm-Q1fc.js";import{u as n}from"./asyncData.D7w4k7mi.js";const o=()=>{const t=r("skills",()=>[]);async function e(){var a;if(!t.value.length)try{const{data:s}=await n("skills",()=>l("/skills").findOne());t.value=(a=s.value)==null?void 0:a.items}catch(s){return t.value=[],s}}return{skills:t,fetchData:e}};export{o as u};
