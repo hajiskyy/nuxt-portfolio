@@ -1,6 +1,6 @@
 <template>
-  <UContainer class="relative overflow-hidden">
-    <Header />
+  <Header />
+  <UContainer class="overflow-x-hidden relative">
     <HomeContentNav />
     <HeroAnimation />
     <UContainer>

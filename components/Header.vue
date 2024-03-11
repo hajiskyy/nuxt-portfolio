@@ -1,6 +1,6 @@
 <template>
   <UContainer
-    class="sticky top-0 py-2 flex items-center justify-between backdrop-blur"
+    class="w-full sticky top-0 z-10 py-2 flex items-center justify-between backdrop-blur"
   >
     <NuxtLink to="/" class="text-xl font-extrabold cursor-pointer">
       イブラヒム
