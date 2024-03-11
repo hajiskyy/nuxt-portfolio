@@ -17,7 +17,7 @@ type Point = {
   x: number
   y: number
 }
-const points = ref<Point[] | []>([])
+const points: Ref<Point[]> = ref([])
 const numPoints = 10
 
 const width = 100
