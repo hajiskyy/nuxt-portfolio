@@ -15,7 +15,7 @@ projects:
     id: wyrmwood-gtc
     description: ''
     img: ''
-    link: ''
+    link: 'https://wyrmwoodmodulardesk.com/modular-table'
     tools:
       - js
       - webpack
@@ -24,7 +24,7 @@ projects:
     id: wren-visualiser
     description: ''
     img: ''
-    link: ''
+    link: 'https://www.wrenkitchens.com/kitchen-design/online-planner/configure/modern/new-build/l-shape'
     tools:
       - js
       - webpack
@@ -33,7 +33,7 @@ projects:
     id: onfigr
     description: ''
     img: ''
-    link: ''
+    link: 'https://onfigr.com/'
     tools:
       - nuxt
       - vue
