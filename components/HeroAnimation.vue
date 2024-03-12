@@ -3,7 +3,7 @@
     class="w-full absolute h-screen transform-gpu blur-3xl -z-10 overflow-hidden pointer-events-none opacity-60"
   >
     <div
-      class="clip-anim aspect-[1.7] w-full h-full bg-gradient-to-tr from-primary-500 to-white/10 opacity-90"
+      class="clip-anim aspect-[1.7] w-full h-full bg-gradient-to-tr from-primary-700 to-white/10 opacity-90"
       :style="style"
     ></div>
   </div>
