@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-full absolute h-screen transform-gpu blur-3xl -z-10 overflow-hidden pointer-events-none opacity-60"
+    class="w-full absolute left-0 top-0 h-screen transform-gpu blur-3xl -z-0 overflow-hidden pointer-events-none opacity-100 md:opacity-60"
   >
     <div
-      class="clip-anim aspect-[1.7] w-full h-full bg-gradient-to-tr from-primary-700 to-white/10 opacity-90"
+      class="clip-anim w-full h-full bg-gradient-to-tr from-primary-950 md:from-primary-700 to-white/10 opacity-100"
       :style="style"
     ></div>
   </div>
