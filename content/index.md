@@ -8,7 +8,7 @@ Hi, [I'm Haji]{.text-primary}\
 I bring Ideas to life
 
 #description
-Developer, Vue & Nuxt Enthusiast
+Product Developer, Vue & Nuxt Enthusiast
 ::
 
 ## About me
