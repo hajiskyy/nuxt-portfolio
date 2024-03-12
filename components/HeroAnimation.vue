@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-full absolute left-0 top-0 h-screen transform-gpu blur-3xl -z-0 overflow-hidden pointer-events-none opacity-100 md:opacity-60"
+    class="w-full absolute left-0 top-0 h-screen transform-gpu blur-3xl -z-10 overflow-hidden pointer-events-none opacity-100 md:opacity-60"
   >
     <div
-      class="clip-anim w-full h-3/4 md:h-full bg-gradient-to-tr from-primary-950 md:from-primary-700 to-white/10 opacity-100"
+      class="clip-anim w-full h-3/4 md:h-full bg-gradient-to-tr from-primary-500 dark:from-primary-900 md:from-primary-700 to-white/10 opacity-100"
       :style="style"
     ></div>
   </div>
@@ -18,7 +18,7 @@ type Point = {
   y: number
 }
 const points: Ref<Point[]> = ref([])
-const numPoints = 10
+const numPoints = 8
 
 const width = 100
 const height = 100
