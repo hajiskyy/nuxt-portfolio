@@ -3,7 +3,7 @@
     <div class="w-full my-4" v-for="p in projects" :key="p.id" :id="p.id">
       <NuxtLink :to="p.link" target="_blank">
         <!-- <img src="" alt=""> -->
-        <p class="my-3 text-lg font-bold">{{ p.name }}</p>
+        <p class="my-3 text-lg font-bold underline">{{ p.name }}</p>
       </NuxtLink>
 
       <div class="flex flex-wrap gap-1">
