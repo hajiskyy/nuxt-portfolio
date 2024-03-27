@@ -3,8 +3,11 @@
     class="hidden md:flex max-w-52 screen-height p-2 fixed top-0 flex-col justify-end"
   >
     <ul class="">
-      <li v-for="l in toc.links" :key="l.id">
-        <NuxtLink :to="`/#${l.id}`" class="font-medium">
+      <li v-for="l in toc.links" :key="l.id" class="my-1">
+        <NuxtLink
+          :to="`/#${l.id}`"
+          class="font-semibold my-2 hover:text-primary transition"
+        >
           {{ l.text }}
         </NuxtLink>
       </li>
