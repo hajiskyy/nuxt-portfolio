@@ -15,15 +15,13 @@ Product Developer, Vue & Nuxt Enthusiast
 
 ![personal-image](/photo.jpeg){.max-w-52}
 
-I craft beautiful, performant user interfaces with Vue.js and Nuxt.js as a front-end expert. On the back-end, I architect scalable solutions using Node.js and TypeScript, ensuring clean, maintainable code.
-
-As a full-stack developer, I bridge the gap between front-end and back-end seamlessly, prioritizing user-centric design and efficient functionality. I foster a collaborative environment where knowledge sharing is key, ensuring team success.
-
-I'm a continuous learner, staying ahead of the curve by actively engaging in the developer community and embracing new technologies.
+I’m a Web Product Developer who loves to bring product ideas to life. I craft beautiful and performant Web Applications with Javascript, Typescript, Nuxt, Vue.js, and more. My experience building web products has honed my skills and made me truly confident in my abilities to take on new challenges.
 
 When I'm not coding, you can find me playing FIFA or dominating lobbies in Call of Duty. _Wanna link up? my PS tag is_ _**hajisky\_**_
 
 Let's build something extraordinary together. I'm eager to bring my experience to your projects!
+
+[Let's Talk](mailto\:hajisky07@gmail.com)
 
 ## Skills
 
