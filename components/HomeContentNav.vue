@@ -6,7 +6,7 @@
       <li v-for="l in toc.links" :key="l.id" class="my-1">
         <NuxtLink
           :to="`/#${l.id}`"
-          class="font-semibold my-2 hover:text-primary transition"
+          class="font-semibold my-2 hover:underline transition"
         >
           {{ l.text }}
         </NuxtLink>

@@ -17,6 +17,7 @@
       to="/CV.pdf"
       target="_blank"
       external
+      color="gray"
       >Download CV</UButton
     >
   </article>

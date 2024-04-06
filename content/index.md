@@ -21,32 +21,31 @@ When I'm not coding, you can find me playing FIFA or dominating lobbies in Call 
 
 Let's build something extraordinary together. I'm eager to bring my experience to your projects!
 
-[Let's Talk](mailto\:hajisky07@gmail.com)
+[Let's Talk](mailto:hajisky07@gmail.com)
 
 ## Skills
 
-Familiar with mainstream stacks
+Familiar with mainstream web stacks
 
 ::skills
 ::
 
 ## Experience
 
-### **Product Developer** _- Pikcells Ltd, UK, Huddersfield_
+#### **Product Developer** _- Pikcells Ltd, UK, Huddersfield_
 
 _(2021 - 2023)_
 
-### **Data Science Intern** _- Collinson, London_
+#### **Data Science Intern** _- Collinson, London_
 
 _Oct 2020 - Dec 2020_
 
-### **Full Stack Developer** _- GoldenOx, Remote_
+#### **Full Stack Developer** _- GoldenOx, Remote_
 
 _Feb 2019 - 2020_
 
 ## Projects
 
 I've picked out a few projects that I'm allowed to show
-
 ::projects
 ::
