@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full border-t py-5 flex flex-col md:flex-row gap-2 items-center justify-between mt-10"
+    class="w-full border-t border-gray-500 py-5 flex flex-col md:flex-row gap-2 items-center justify-between mt-10"
   >
     <span class="text-xs md:text-sm"
       >&copy; {{ new Date().getFullYear() }} Haji Mohammed. All rights

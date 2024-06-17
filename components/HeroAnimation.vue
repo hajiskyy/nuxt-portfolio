@@ -3,7 +3,7 @@
     class="w-full absolute left-0 top-0 h-screen transform-gpu blur-3xl -z-10 overflow-hidden pointer-events-none opacity-100 md:opacity-60"
   >
     <div
-      class="clip-anim w-full h-3/4 md:h-full bg-gradient-to-tr from-primary-400 dark:from-primary-500 to-white/10 opacity-100"
+      class="clip-anim w-full h-3/4 md:h-full bg-gradient-to-tr from-primary-600 dark:from-primary-500 to-white/10 opacity-100"
       :style="style"
     ></div>
   </div>
