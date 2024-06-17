@@ -15,7 +15,6 @@
   "dependencies": {
     "@iconify-json/logos": "^1.1.42",
     "@iconify-json/simple-icons": "^1.1.94",
-    "nuxt": "^3.10.3",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
   },
@@ -24,6 +23,7 @@
     "@nuxt/fonts": "^0.0.2",
     "@nuxt/ui": "^2.14.2",
     "@nuxthq/studio": "^1.0.13",
-    "@tailwindcss/typography": "^0.5.10"
+    "@tailwindcss/typography": "^0.5.10",
+    "nuxt": "^3.12.2"
   }
 }
