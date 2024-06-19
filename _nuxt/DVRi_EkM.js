@@ -1,1 +1,0 @@
-import o from"./DTK7egfA.js";import{l as r,e as t,h as n,c}from"./CgCRKEyx.js";import"./DguJTUuZ.js";import"./BmiwIiqe.js";import"./Duzy53Jr.js";import"./B3FJkI8_.js";const s={};function _(a,p){const e=o;return c(),t("div",null,[n(e,{class:"prose prose-primary dark:prose-invert prose-a:no-underline"})])}const k=r(s,[["render",_]]);export{k as default};
