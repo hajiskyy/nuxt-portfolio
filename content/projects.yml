@@ -2,15 +2,15 @@ title: Projects
 description: ''
 navigation: false
 projects:
-  - name: Pikcells Website
-    id: pikcells-site
-    description: ''
-    img: ''
-    link: 'https://pikcells.com'
-    tools:
-      - nuxt
-      - ts
-      - node
+  # - name: Pikcells Website
+  #   id: pikcells-site
+  #   description: ''
+  #   img: ''
+  #   link: 'https://pikcells.com'
+  #   tools:
+  #     - nuxt
+  #     - ts
+  #     - node
   - name: Wyrmwood GTC
     id: wyrmwood-gtc
     description: ''
@@ -29,13 +29,13 @@ projects:
       - js
       - webpack
       - node
-  - name: Onfigr
-    id: onfigr
-    description: ''
-    img: ''
-    link: 'https://onfigr.com/'
-    tools:
-      - nuxt
-      - vue
-      - ts
-      - node
+  # - name: Onfigr
+  #   id: onfigr
+  #   description: ''
+  #   img: ''
+  #   link: 'https://onfigr.com/'
+  #   tools:
+  #     - nuxt
+  #     - vue
+  #     - ts
+  #     - node

@@ -16,3 +16,9 @@
     @apply h-[calc(100vh-var(--nav-height))];
   }
 }
+
+@layer components {
+  .prose {
+    max-width: 80ch;
+  }
+}

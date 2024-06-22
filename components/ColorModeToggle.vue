@@ -8,6 +8,8 @@ const isDark = computed({
     colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
   },
 })
+
+defineProps(['size'])
 </script>
 <template>
   <ClientOnly>
@@ -17,6 +19,7 @@ const isDark = computed({
       variant="ghost"
       aria-label="Theme"
       @click="isDark = !isDark"
+      :size="size"
     />
     <template #fallback>
       <div class="w-8 h-8" />

@@ -1,14 +1,8 @@
 <template>
-  <div class="w-full relative">
-    <Header />
-    <HeroAnimation />
-    <UContainer class="overflow-x-hidden">
-      <HomeContentNav />
-      <UContainer class="md:max-w-xl lg:max-w-4xl mr-0 px-0 pb-5">
-        <NuxtPage />
-      </UContainer>
-      <Footer />
-    </UContainer>
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
