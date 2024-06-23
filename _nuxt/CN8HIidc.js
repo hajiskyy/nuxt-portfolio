@@ -1,0 +1,1 @@
+const a=r=>{const n=new Date,o=new Date(r),e=Math.floor((n-o)/1e3),t=new Intl.RelativeTimeFormat("en",{numeric:"auto"});return e<3600?t.format(-Math.floor(e/60),"minute"):e<86400?t.format(-Math.floor(e/3600),"hour"):e<2592e3?t.format(-Math.floor(e/86400),"day"):e<31536e3?t.format(-Math.floor(e/2592e3),"month"):new Intl.DateTimeFormat("en").format(o)};export{a as u};

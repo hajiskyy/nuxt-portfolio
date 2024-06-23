@@ -1,1 +1,0 @@
-import{q as r,s as l}from"./Bn95CyHR.js";import{u as n}from"./DiVo_TvX.js";const o=()=>{const s=r("skills",()=>[]);async function e(){var a;if(!s.value.length)try{const{data:t}=await n("skills",()=>l("/skills").findOne());s.value=(a=t.value)==null?void 0:a.items}catch(t){return s.value=[],t}}return{skills:s,fetchData:e}};export{o as u};
