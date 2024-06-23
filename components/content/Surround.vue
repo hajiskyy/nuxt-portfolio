@@ -3,7 +3,7 @@
     <hr v-if="surround.length" />
 
     <div
-      class="w-full grid grid-cols-2 gap-10 not-prose"
+      class="w-full grid sm:grid-cols-2 gap-10 not-prose"
       v-if="surround.length"
     >
       <div class="w-full max-w-md">
