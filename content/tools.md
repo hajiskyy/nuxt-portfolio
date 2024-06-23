@@ -1,7 +1,7 @@
 ---
   title: 'Tools'
   description: 'Tools I use to build stuff'
-  layout: blog
+  layout: tight
 ---
 
 # My work tools

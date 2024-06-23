@@ -1,7 +1,7 @@
 ---
 title: 'About'
 description: 'Learn about me'
-layout: blog
+layout: tight
 ---
 
 # About me

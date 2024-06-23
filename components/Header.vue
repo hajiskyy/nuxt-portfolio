@@ -61,9 +61,8 @@
             class="w-full text-xl"
             size="xl"
             @click="isOpen = false"
-          >
-            {{ item.title }}
-          </UButton>
+            :label="item.navigation?.title || item.title"
+          />
         </div>
 
         <div class="flex item-center gap-4">

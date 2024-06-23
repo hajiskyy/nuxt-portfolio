@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col gap-6 not-prose divide-y">
+  <div
+    class="flex flex-col gap-6 not-prose divide-y divide-primary-700 dark:divide-primary-600"
+  >
     <NuxtLink
       v-for="blog in blogs"
       :key="blog._id"

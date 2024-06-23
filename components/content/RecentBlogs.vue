@@ -22,7 +22,7 @@
     <UButton
       :padded="false"
       label="More Blogs"
-      to="/blogs"
+      to="/blog"
       variant="link"
       icon="i-heroicons-arrow-right"
       trailing
