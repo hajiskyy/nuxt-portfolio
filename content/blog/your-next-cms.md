@@ -1,11 +1,11 @@
 ---
 title: Your next CMS is close to Home
 description: 'Nuxt Studio & Nuxt Content: A Developer-Friendly CMS Dream'
-publishedAt: 2024-06-22
+publishedAt: 2024-06-22T00:00:00.000Z
 layout: blog
 image:
-  src: '/blog/your-next-cms.webp'
-  alt: 'Nuxt Studio & Nuxt Content.'
+  src: /blog/your-next-cms.webp
+  alt: Nuxt Studio & Nuxt Content.
   width: 400
   height: 300
 ---
@@ -96,3 +96,4 @@ Nuxt Studio offers several advantages for both developers and businesses:
 While Nuxt Studio might not be the perfect fit for every project, it presents a strong alternative for developers comfortable with Git and Vue.js. Its streamlined workflow, developer-centric approach, and seamless integration with Git version control make it a compelling option for building modern content-rich applications.
 
 ::surround
+::
