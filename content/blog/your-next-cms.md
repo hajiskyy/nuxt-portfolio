@@ -12,42 +12,37 @@ image:
 
 # Nuxt Studio & Nuxt Content: A Developer-Friendly CMS Dream
 
-Nuxt Studio & Nuxt Content: A Developer-Friendly CMS Dream (1487 words)
-For developers building content-driven applications, the quest for the perfect CMS can be frustrating. Traditional options often require complex setups and separate databases, creating silos between developers and content creators. Nuxt Studio and Nuxt Content, however, offer a fresh perspective – a Git-based CMS built specifically for the Nuxt.js framework.
+So let's assume you're a Nuxt/Vue developer you have a client that needs a marketing or blog site. It's not a high-profile client but they'll need a CMS so update content occasionally, maybe hardly ever. Now this client wants a very custom design so you would probably not go for a template and have to do a lot of overwriting. Oh and wait...You need a CMS! What are our options? WordPress? Ghost CMS? or maybe Sanity? These and others I did not mention are excellent choices, some would argue even the best for your use case. If you're like me and you find the thought of setting up those CMSs and hosting to be a daunting task and perhaps unnecessary, I bring you[ Nuxt Studio](https://nuxt.studio).
 
-## Building on Nuxt.js: A Solid Foundation
+## What is Nuxt Studio? and Why?
 
-Nuxt.js, a popular framework built on Vue.js, offers features like server-side rendering, static site generation, and automatic code-splitting for performant and SEO-friendly applications. Nuxt Content takes this a step further by enabling developers to define and manage content directly within their codebase using Markdown files. This eliminates the need for a separate CMS and database, keeping everything organized within your Git repository.
+[Nuxt Studio](https://nuxt.studio) builds upon [Nuxt Content](https://content.nuxt.com/) by providing a user-friendly visual interface. Built on top of GitHub, Nuxt Studio allows content creators to edit, organize, and collaborate on content directly within the familiar Git workflow. This empowers non-technical users to manage content without needing to delve into code, fostering seamless collaboration between developers and content teams. Nuxt Content works by parsing markdown files into web pages. It also allows developers to include and manipulate Vue components in markdown files. Nuxt Studio takes advantage of this and wraps it around a specially crafted editor with a nice UI to make content editing an unforgettable experience.
 
-## Introducing Nuxt Studio: A Visual Interface for Git-based Content
-
-Nuxt Studio builds upon Nuxt Content by providing a user-friendly visual interface. Built on top of GitHub, Nuxt Studio allows content creators to edit, organize, and collaborate on content directly within the familiar Git workflow. This empowers non-technical users to manage content without needing to delve into code, fostering seamless collaboration between developers and content teams.
+Let's take a look at how to get started.
 
 ## 5 Steps to Building with Nuxt Studio & Nuxt Content
 
 Here's a breakdown of the process to get you started with Nuxt Studio:
 
-**1. Project Setup**: Begin by creating a new Nuxt project using the npx nuxt generate `<project-name>` command. This will set up the basic project structure and install the necessary dependencies.
+### 1. Project Setup
 
-**2. Install Nuxt Content**: Next, install the `@nuxt/content` package using npm or yarn:
+Begin by creating a new Nuxt project using the `npx nuxt generate <project-name>` command. This will set up the basic project structure and install the necessary dependencies.
 
-```bash
-npm install @nuxt/content
+### **2. Add The Nuxt Content** Module
+
+Next, add the `@nuxt/content` module using npm or yarn:
+
+```bash [Terminal]
+npx nuxi module add content
 ```
 
-**3. Define Content Folders**: Configure your content folders within `nuxt.config.js`. This specifies where your Markdown files will reside:
+### **3. Create Content Files**
 
-```js
-export default defineNuxtConfig({
-  content: {
-    dir: 'content', // Replace with your desired content directory name
-  },
-})
-```
+Your Content files are created inside the `content/` directory
 
-**4. Create Content Files**: Start adding your content using Markdown files within the designated content directory. Here's a basic example:
+```md [content/index.md]
+// content/index.md
 
-```md
 # My First Post
 
 This is a sample post written using Nuxt Content.
@@ -60,26 +55,24 @@ excerpt: A great introduction to Nuxt Content.
 ---
 ```
 
-**5. Access Content in Nuxt Components**: Use the $content API in your Nuxt components to fetch and display content from Markdown files:
+### **4. Render Content**
 
-```vue
+Add a catch-all route using the `<ContentDoc>`  component
+
+```vue [pages/[...slug]
+<!-- pages/[...slug]-->
 <template>
-  <div>
-    <h1>{{ $content.title }}</h1>
-    <p v-html="$content.body"></p>
-  </div>
+  <main>
+    <!-- ContentDoc returns content for `$route.path` by default or you can pass a `path` prop -->
+    <ContentDoc />
+  </main>
 </template>
-
-<script>
-export default {
-  async asyncData({ $content }) {
-    return {
-      content: await $content('blog/my-post.md').fetch(),
-    }
-  },
-}
-</script>
 ```
+
+You should be all set up now to start editing your content in Markdown. To learn more about how to manipulate vue components in markdown and setup please check out their documentation.
+
+- Nuxt Content: <https://content.nuxt.com>
+- Nuxt Studio: [https://nuxt.studio](https://nuxt.studio/)
 
 ## Benefits for Developers and Businesses
 
@@ -87,13 +80,13 @@ Nuxt Studio offers several advantages for both developers and businesses:
 
 - **Simplified Workflow**: The Git-based approach eliminates the need for separate CMS configurations and databases, streamlining the development process.
 - **Improved Developer Experience**: Developers can manage content directly within their codebase, fostering a more unified development environment.
-- **Reduced Costs**: The elimination of separate CMS licensing fees and infrastructure costs can lead to significant cost savings for businesses.
-- **Enhanced Content Management**: The user-friendly interface empowers content creators to manage content independently.
+- **Reduced Costs**: Eliminating separate CMS licensing fees and infrastructure costs can lead to significant savings for your business.
 - **Real-time Previews and Collaboration**: Seamless collaboration is facilitated through real-time content previews and user roles.
+- **No more database management**: You keep your data in Git repositories, and Nuxt Studio syncs with it.
 
 ## Conclusion: A Promising Approach for Modern Applications
 
-While Nuxt Studio might not be the perfect fit for every project, it presents a strong alternative for developers comfortable with Git and Vue.js. Its streamlined workflow, developer-centric approach, and seamless integration with Git version control make it a compelling option for building modern content-rich applications.
+While Nuxt Studio might not be the perfect fit for every project, it presents a strong alternative for developers comfortable with Git and Vue.js. Its streamlined workflow, developer-centric approach, and seamless integration with Git version control. I would argue the most powerful feature of it, is how Vue components can be written by a developer to enhance the content experience for editors. Nuxt Studio is a compelling option for building modern content-rich applications.
 
 ::surround
 ::
