@@ -51,7 +51,7 @@
       <div
         class="p-4 w-full h-full flex flex-col justify-center items-center gap-6"
       >
-        <div class="flex flex-col gap-4 mt-auto">
+        <div class="flex flex-col gap-3 mt-auto">
           <UButton
             v-for="item in navigation"
             :key="item._id"
@@ -101,6 +101,8 @@ const { data: navigation } = await useAsyncData('navigation', () =>
     },
   })
 )
+
+console.log(navigation)
 </script>
 
 <style lang="scss" scoped></style>

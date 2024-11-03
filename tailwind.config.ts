@@ -15,10 +15,11 @@ export default <Partial<Config>>{
             'h1 a, h2 a, h3 a, h4 a': {
               borderBottom: 'none !important',
               fontWeight: 'inherit',
+              color: 'inherit',
             },
             a: {
               fontWeight: theme('fontWeight.medium'),
-              textDecoration: 'none',
+              textDecoration: 'underline',
               borderBottom: '1px solid transparent',
             },
             'a:hover': {
@@ -126,7 +127,7 @@ export default <Partial<Config>>{
         },
         primary: {
           css: {
-            '--tw-prose-body': 'rgb(var(--color-gray-700))',
+            '--tw-prose-body': theme('colors.black'),
             '--tw-prose-headings': 'rgb(var(--color-gray-950))',
             '--tw-prose-lead': 'rgb(var(--color-gray-600))',
             '--tw-prose-links': 'rgb(var(--color-primary-950))',

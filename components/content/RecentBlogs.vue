@@ -20,6 +20,7 @@
     </div>
 
     <UButton
+      v-if="blogs && blogs.length > 2"
       :padded="false"
       label="More Blogs"
       to="/blog"
@@ -31,8 +32,6 @@
 </template>
 
 <script setup lang="ts">
-import { useDateFormatter } from '~/composable/formatter'
-
 const { data: blogs } = await useAsyncData('recent-blogs', () =>
   queryContent('blog')
     .where({ isHome: { $not: true } })
