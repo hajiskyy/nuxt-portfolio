@@ -101,8 +101,6 @@ const { data: navigation } = await useAsyncData('navigation', () =>
     },
   })
 )
-
-console.log(navigation)
 </script>
 
 <style lang="scss" scoped></style>

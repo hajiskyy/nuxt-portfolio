@@ -16,7 +16,11 @@ Let's build something extraordinary together. I'm eager to bring my experience t
 
 ## Experience
 
-### **Product Developer** _- Pikcells Ltd, UK, Huddersfield_
+### **Fullstack Developer** _- Onfigr Ltd, UK, Huddersfield_
+
+_(2023 - 2024)_
+
+### **Fullstack Developer** _- Pikcells Ltd, UK, Huddersfield_
 
 _(2021 - 2023)_
 
@@ -26,4 +30,4 @@ _Oct 2020 - Dec 2020_
 
 ### **Full Stack Developer** _- GoldenOx, Remote_
 
-_Feb 2019 - 2020_
+_Feb 2019 - 2021_
